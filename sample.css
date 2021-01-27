@@ -31,10 +31,23 @@
 	float: left;
 	margin-left: 13%;
 }
+
 .l-right {
 	float: right;
 	margin-right: 13%;
 
+}
+
+@media only screen and (max-width:600px)
+{
+	.l-left {
+		margin-left: 3%;
+	}
+	.l-right {
+		float: right;
+		margin-right: 5%;
+	
+	}
 }
 
 .toggle-menu i{
@@ -82,7 +95,7 @@ h1 a {
 	position: absolute;
 	display: block;
 	height: 5px;
-	background: #000;
+	background: #3a3b3c;
 	width: 40px;
 	left: 10px;
 	transition: all .3s;
@@ -217,29 +230,30 @@ h3 {
     font-family: 'Archivo Black', sans-serif;
     color: #000;
     font-size: 450%;
-    height:70%;
+    height:80%;
     width: 35%;
     margin: -10% 30% 1% 12%;
 	position: absolute;
 	text-align: left;
-	
 }
 
 @media screen and (max-width: 700px){
     #description{
-        font-size: 300%;
+		font-size: 300%;
+		margin: -50% 0% 1% 10%;
     }
 }
 
 .logo{
 	font-family: 'Archivo Black', sans-serif;
 	font-size:large ;
-     color: white;
-     background-color: #000 ;
+     color: #fff;
+     background-color: #3a3b3c ;
     padding: 15px;
-    mix-blend-mode: multiply;
-    background-color: #000;
+    mix-blend-mode: screen;
 }
+
+
 
 /* .navbar-default{
     background-image: none;
@@ -401,9 +415,11 @@ navigation menu */
 		font-family: 'Archivo Black', sans-serif;
 		color: #fff;
 		font-size: 500%;
-	width: 40%;
-	margin: 45px;
+	width: 50%;
+	margin: 20px;
 	margin-left:5% ;
+position: relative;
+bottom: 50px;
 	}
 	
 	#bh {
@@ -425,19 +441,30 @@ navigation menu */
 	}
 	
 	
-	@media screen and (max-width: 600px){
+	@media only screen and (max-width: 600px){
 		
 		#text{
 			font-size: 340%;
-	text-align: center;
+	text-align: left;
 	width: 70%;
 		}
 	
 		#bh{
-			margin-left: 15%;
+			margin-left: 2% ;
 			height: 68%;
 		width: 70%;
 		align-items: center;
 		}
 	}
 	
+	p{
+		font-family: 'Archivo Black', sans-serif;
+		color: #d3d3d3;
+		font-size: 200%;
+	width: 30%;
+	margin: 20px;
+	margin-left:8% ;
+position: relative;
+bottom: 400px;
+text-align:left ;
+	}
