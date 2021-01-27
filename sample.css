@@ -1,5 +1,8 @@
 /** Code By Webdevtrick ( https://webdevtrick.com ) **/
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700);
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 
 .header-top {
 	height: 100px;
@@ -499,3 +502,205 @@ text-align:left ;
 	
 
 	
+
+
+
+/* Team */
+
+.team {
+
+	  text-align: center;
+	 	background-color: black;
+	  color: white;
+	  font-family: 'Josefin Sans', sans-serif;
+	  height: 100vh;
+	  width: 100%;
+
+	}
+
+
+
+.team a {
+  text-decoration: none;
+  color: white;
+}
+
+.team img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  opacity: 0.8;
+  height: 260px;
+}
+
+.team header {
+  clip-path: ellipse(250px 200px at 20% 20%);
+}
+.team h1{
+    font-weight: bold;
+    padding: 2%;
+    margin: 1%;
+		font-size: 3rem;
+}
+.team h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+
+
+.list {
+  padding: 1rem;
+  display: flex;
+  overflow-x: scroll;
+
+}
+
+.list::-webkit-scrollbar {
+  width: 1rem;
+  height: 10px;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background-color: #262626;
+  border-radius: 10px;
+}
+
+.cards {
+
+  background-image: linear-gradient(0deg, rgba(13, 13, 13, 1) -1.6%, rgba(59, 59, 59, 1) 103.8%);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 350px;
+  width: 350px;
+  min-width: 250px;
+  border-radius: 15px;
+  box-shadow: -1rem 0 4rem #000;
+}
+
+.cards footer {
+  position: relative;
+  text-align: center;
+}
+
+.cards:hover {
+  transform: translateY(-1rem);
+  transition-duration: 0.3s;
+}
+
+.cards:hover~.cards {
+  transform: translateX(13px);
+}
+
+.card:not(:fist-child) {
+  margin-left: -13px;
+}
+
+.icon {
+  margin: 2%;
+}
+
+.fa-linkedin{
+    color: #00a8cc;
+}
+
+
+
+/* Mergers */
+
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:3%;
+    padding: 2%;
+}
+
+
+.container .card {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    border-radius: 4px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s ease-in-out;
+}
+
+.container .card:hover
+{
+    height: 400px;
+}
+
+
+
+.container .card .imgBx{
+   position: relative;
+    width: 260px;
+   height: 260px;
+   top: -60px;
+   left: 20px;
+    z-index: 1;
+
+
+}
+
+
+.container .card .imgBx img{
+    max-width: 100%;
+    height: 260px;
+    border-radius: 4px;
+    padding: 1%;
+
+}
+
+
+.container .card .content{
+    visibility: hidden;
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color:black;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+
+}
+
+
+.container .card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+
+
+
