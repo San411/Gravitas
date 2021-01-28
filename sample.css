@@ -876,6 +876,13 @@ margin-top: 30px;
 		    margin-top: -30px;
 		    transition-delay: 0.3s;
 		}
+		
+			.team h1 {
+	  font-weight: bold;
+	  padding: 20px;
+	  margin-top: 20%;
+	  font-size: 3rem;
+	}
 
 	}
 
