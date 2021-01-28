@@ -444,6 +444,8 @@ position: relative;
 top: 130px;
 	}
 	
+	
+
 	#bh {
 		/* -webkit-animation:spin 4s linear infinite;
 		-moz-animation:spin 4s linear infinite;
@@ -518,6 +520,9 @@ text-align:left ;
 		position: relative;
 		text-align:left ;
 		}
+
+		
+	
 	}
 	.exp-button {
 		font-family: 'Archivo Narrow', sans-serif;
@@ -537,9 +542,6 @@ text-align:left ;
 	background: rgba(256,256,256,0.6);
 	
 	}
-
-	
-
 
 
 /* Team */
@@ -691,7 +693,7 @@ h4{
     max-width: 300px;
     height: 215px;
     border-radius: 4px;
-    margin: 30px 20px;
+    margin: 30px 5%;
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
@@ -713,8 +715,6 @@ h4{
    top: -60px;
    left: 20px;
     z-index: 1;
-
-
 }
 
 
@@ -747,7 +747,20 @@ h4{
     margin-top: -40px;
     transition-delay: 0.3s;
 }
-	@media only screen and (max-width: 400px){
+
+#text1{
+	font-family: 'Archivo Black', sans-serif;
+	color: #fff;
+	font-size: 400%;
+width: 50%;
+margin: 20px;
+margin-left:38% ;
+position: relative;
+display: flex;
+top: -5%;
+}
+
+	@media only screen and (max-width: 560px){
 
 		h4{
 			margin: 2%;
@@ -759,7 +772,12 @@ h4{
 			font-size: 3rem;
 		}
 
-
+		#text1{
+			font-size: 20px;
+			top: 8%;
+			margin-left:10% ;
+visibility: hidden;
+		}
 		.container{
 		    position: relative;
 		    width: 100%;
@@ -773,7 +791,7 @@ h4{
 
 		.container .card {
 		    position: relative;
-		    max-width: 300px;
+		    max-width: 200px;
 		    height: 215px;
 		    border-radius: 4px;
 		    margin: 30px 20px;
@@ -792,20 +810,21 @@ h4{
 
 
 		.container .card .imgBx{
+			
 		   position: relative;
 		    width: 230px;
 		   height: 230px;
-		   top: -60px;
-		   left: 20px;
+		   top: -50px;
+		   left: 0px;
 		    z-index: 1;
-
+margin-top: 30px;
 
 		}
 
 
 		.container .card .imgBx img{
 		    max-width: 100%;
-		    height: 260px;
+			height: 200px;
 		    border-radius: 4px;
 		    padding: 1%;
 
@@ -834,6 +853,5 @@ h4{
 		}
 
 	}
-
 
 
