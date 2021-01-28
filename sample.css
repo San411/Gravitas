@@ -435,13 +435,12 @@ navigation menu */
 
 	#text{
 		font-family: 'Archivo Black', sans-serif;
-		color: #fff;
-		font-size: 500%;
-	width: 50%;
-	margin: 20px;
-	margin-left:3% ;
-position: relative;
-top: 130px;
+               color: #fff;
+	width: 50%;	                
+	  font-size: 2rem;
+                  
+		           position: absolute;
+	           top: 20%;
 	}
 	
 	
@@ -478,22 +477,23 @@ text-align:left ;
 	
 #CBS{
 	font-family: 'Archivo Narrow', sans-serif;
-	color: #d3d3d3;
-		font-size: 150%;
-	width: 40%;
-	margin: 20px;
-	margin-left:6% ;
-position: relative;
-bottom: 20%;
-text-align:left ;
+          color: #d3d3d3;
+          font-size: 150%;
+          width: 40%;
+          margin: 20px;
+          margin-left: 6%;
+          position: relative;
+	  /* position: absolute; */
+          bottom: 20%;
+          text-align: left;
 }
 	@media only screen and (max-width: 600px){
 		
 		#text{
-			font-size: 300%;
-	text-align: left;
-	width: 80%;
-	margin-top: -5%;
+			font-size: 200%;
+	                          text-align: center;
+                         width: 100%;
+	                          margin-top: -5%;
 		}
 	
 		#bh{
@@ -526,16 +526,15 @@ text-align:left ;
 	}
 	.exp-button {
 		font-family: 'Archivo Narrow', sans-serif;
-		color: #fff;
-		font-size: 30px;
-		padding: 8px 10px 8px 10px;
-		border-radius: 10px;
-		border-color: white;
-		background: black;
-		transition: all .1s;
-		position: relative;
-		bottom: 30%;
-		left: -35%;
+	              color: #fff;
+	                  font-size: 30px;
+	                  padding: 8px 10px 8px 10px;
+			                  border-radius: 10px;
+			                  border-color: white;
+		                  background: black;
+	                  transition: all .1s;
+	             position: relative;
+	          margin-top: 10%;
 	}
 	
 	.exp-button:hover{
@@ -558,7 +557,12 @@ text-align:left ;
 	}
 
 
-
+	.team h1 {
+		font-weight: bold;
+		padding: 20px;
+		margin-top: 20%;
+		font-size: 3rem;
+	  }
 .team a {
   text-decoration: none;
   color: white;
@@ -612,10 +616,23 @@ text-align:left ;
   position: relative;
   flex-direction: column;
   height: 350px;
-  width: 350px;
+  width: 300px;
   min-width: 250px;
   border-radius: 15px;
   box-shadow: -1rem 0 4rem #000;
+}
+
+@media only screen and (max-width:500px){
+	/* .cards {
+		
+		height: 100px;
+		width: 300px;
+		min-width: 250px;
+	  } */
+	  .list::-webkit-scrollbar {
+		width: 0.5rem;
+		height: 3px;
+	  }
 }
 
 .cards footer {
