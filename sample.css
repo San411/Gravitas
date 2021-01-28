@@ -487,13 +487,18 @@ text-align:left ;
 	}
 	
 	#CBS{
-			top: -10%;
-			font-size: 1.9rem;
-			width: 80%;
-			margin-left:8% ;
-	  	position: relative;
-		  text-align:center ;
+	  font-family: 'Archivo Narrow', sans-serif;
+          color: #d3d3d3;
+          font-size: 150%;
+          width: 40%;
+          margin: 20px;
+          margin-left: 6%;
+          position: relative;
+	  /* position: absolute; */
+          bottom: 20%;
+          text-align: left;
 		}
+
 	@media only screen and (max-width: 600px){
 		
 		#text{
@@ -521,11 +526,11 @@ text-align:left ;
 
 		#CBS{
 			top: -10%;
-				font-size: 100%;
+			font-size: 1.9rem;
 			width: 80%;
 			margin-left:8% ;
-		position: relative;
-		text-align:left ;
+	  	position: relative;
+		  text-align:center ;
 		}
 
 		
