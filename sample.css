@@ -649,7 +649,6 @@ text-align:left ;
 
 
 
-
 *
 {
     margin: 0;
@@ -663,6 +662,16 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+h4{
+	margin: 2%;
+}
+#merger{
+	font-weight: bold;
+	padding: 2%;
+	margin: 1%;
+	font-size: 3rem;
 }
 
 
@@ -682,7 +691,7 @@ body{
     max-width: 300px;
     height: 215px;
     border-radius: 4px;
-    margin: 30px 10px;
+    margin: 30px 20px;
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
@@ -692,7 +701,7 @@ body{
 
 .container .card:hover
 {
-    height: 400px;
+    height: 360px;
 }
 
 
@@ -728,6 +737,7 @@ body{
     opacity: 0;
     transition: 0.3s ease-in-out;
 
+
 }
 
 
@@ -737,7 +747,6 @@ body{
     margin-top: -40px;
     transition-delay: 0.3s;
 }
-
 	@media only screen and (max-width: 400px){
 
 		h4{
