@@ -6,7 +6,7 @@ $header_top.find('a').on('click', function() {
 });
  
 $('#fullpage').fullpage({
-  sectionsColor: ['#fff', '#000', '#ff8b20', '#ff5757', '#ffd03c'],
+  sectionsColor: ['#fff', '#000', '#ff8b20', 'black', '#ffd03c'],
   sectionSelector: '.vertical-scrolling',
   navigation: true,
   slidesNavigation: true,
