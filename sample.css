@@ -738,6 +738,93 @@ body{
     transition-delay: 0.3s;
 }
 
+	@media only screen and (max-width: 400px){
+
+		h4{
+			margin: 2%;
+		}
+		#merger{
+			font-weight: bold;
+			padding: 2%;
+			margin:20% 0 0 0 ;
+			font-size: 3rem;
+		}
+
+
+		.container{
+		    position: relative;
+		    width: 100%;
+		    display: flex;
+		    justify-content: center;
+		    flex-wrap: wrap;
+		    margin-top:3%;
+		    padding: 2%;
+		}
+
+
+		.container .card {
+		    position: relative;
+		    max-width: 300px;
+		    height: 215px;
+		    border-radius: 4px;
+		    margin: 30px 20px;
+		    padding: 20px 15px;
+		    display: flex;
+		    flex-direction: column;
+		    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		    transition: 0.3s ease-in-out;
+		}
+
+		.container .card:hover
+		{
+		    height: 360px;
+		}
+
+
+
+		.container .card .imgBx{
+		   position: relative;
+		    width: 230px;
+		   height: 230px;
+		   top: -60px;
+		   left: 20px;
+		    z-index: 1;
+
+
+		}
+
+
+		.container .card .imgBx img{
+		    max-width: 100%;
+		    height: 260px;
+		    border-radius: 4px;
+		    padding: 1%;
+
+		}
+
+
+		.container .card .content{
+		    visibility: hidden;
+		    position: relative;
+		    margin-top: -140px;
+		    padding: 10px 15px;
+		    text-align: center;
+		    color:black;
+		    opacity: 0;
+		    transition: 0.3s ease-in-out;
+				font-size: 16px;
+
+		}
+
+
+		.container .card:hover .content{
+		    visibility: visible;
+		    opacity: 1;
+		    margin-top: -30px;
+		    transition-delay: 0.3s;
+		}
+
+	}
 
 
 
