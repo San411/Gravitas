@@ -944,23 +944,6 @@ top: -5%;
 		display: inline-block;
 	  	  }
 
-	  /* .card-front,
-.card-back {
-  width: 100%;
-  height: 100%;
- 
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-
-  backface-visibility: hidden;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 	}
 
 /* .card-front */
@@ -984,8 +967,8 @@ figure {
 figure,
 .img-bg {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -10;
+  left: -10;
 
   width: 100%;
   height: 100%;
@@ -995,6 +978,18 @@ figure,
 img {
   height: 100%;
   border-radius: 24px;
+}
+
+@media only screen and (max-width:500px)
+{
+	img{
+		width: 100%;
+	}
+	li{
+		bottom: 20%;
+		margin-right: 15%;
+
+	}
 }
 
 /* figcaption */
